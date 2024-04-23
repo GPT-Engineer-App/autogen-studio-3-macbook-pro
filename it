@@ -1,0 +1,7 @@
+cd autogen  # If you're not already in the AutoGen directory
+git init
+git add .
+git commit -m "Initial commit with AutoGen Studio setup"
+git branch -M main
+git remote add origin https://github.com/yourusername/autogen-studio-3.git
+git push -u origin main
